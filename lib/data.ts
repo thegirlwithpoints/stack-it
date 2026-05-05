@@ -28,7 +28,7 @@ export const SITE_META = {
 export const STATIC_CARDS: Card[] = [
   {
     id: 'chase',
-    name: 'Chase Sapphire',
+    name: 'CSP',
     shortName: 'Chase',
     color: 'chase',
     sheetName: 'Chase Sapphire',
@@ -60,7 +60,7 @@ export const STATIC_CARDS: Card[] = [
   },
   {
     id: 'united',
-    name: 'United Card',
+    name: 'United',
     shortName: 'United',
     color: 'united',
     sheetName: 'United',
@@ -91,7 +91,7 @@ export const STATIC_CARDS: Card[] = [
   },
   {
     id: 'hyatt',
-    name: 'World of Hyatt',
+    name: 'Hyatt',
     shortName: 'Hyatt',
     color: 'hyatt',
     sheetName: 'World of Hyatt',
@@ -118,7 +118,7 @@ export const STATIC_CARDS: Card[] = [
   },
   {
     id: 'amex',
-    name: 'Amex',
+    name: 'AP',
     shortName: 'Amex',
     color: 'amex',
     sheetName: 'Amex',
