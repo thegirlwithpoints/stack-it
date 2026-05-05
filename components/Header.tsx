@@ -11,8 +11,8 @@ export default function Header() {
         by @thegirlwithpoints
       </p>
       <p className="text-lg text-gray-600 font-medium">
-        Same purchase.{' '}
-        <span className="text-gray-900 font-bold">Double reward.</span>
+        Stacking Cash Back Credit Card Offers{' '}
+        <span className="text-gray-900 font-bold">with Point Bonuses.</span>
       </p>
     </header>
   );
