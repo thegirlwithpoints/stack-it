@@ -96,7 +96,7 @@ export const STATIC_CARDS: Card[] = [
       { store: 'Ray-Ban', cardOffer: 'Spend $50+, earn 5% back, up to 2x (total $70)', rakutenPoints: 'up to 15x points' },
       { store: 'Oakley', cardOffer: 'Spend $150+, earn $16 back, up to 2x (total $65)', rakutenPoints: 'up to 15x points' },
       { store: 'Sunglass Hut', cardOffer: 'Spend $200+, earn $30 back', rakutenPoints: 'up to 15x points' },
-      { store: 'LensCrafters', cardOffer: 'Spend $100+, earn $40 back', rakutenPoints: '15x points' },
+      { store: 'LensCrafters', cardOffer: 'Spend $200+, earn $40 back', rakutenPoints: '15x points' },
       { store: 'ContactsDirect', cardOffer: 'Spend $125+, earn $30 back', rakutenPoints: '15x points' },
       { store: 'Zales', cardOffer: 'Spend $150+, earn $100 back', rakutenPoints: '15x points' },
       { store: 'Kay Jewelers', cardOffer: 'Spend $500+, earn $100 back', rakutenPoints: '15x points' },
