@@ -18,7 +18,12 @@ export interface Card {
 // Set endDate to null or a future date to show the countdown.
 export const PROMO_EVENT = {
   name: 'Big Give Week',
-  endDate: '2025-05-11T23:59:59',
+  endDate: '2026-05-11T23:59:59',
+};
+
+export const SITE_META = {
+  lastUpdated: 'May 4, 2026 at 8:00 PM PST',
+  updateFrequency: 'daily',
 };
 
 export const STATIC_CARDS: Card[] = [

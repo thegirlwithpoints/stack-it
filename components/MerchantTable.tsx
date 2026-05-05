@@ -25,11 +25,10 @@ const COLOR_MAP: Record<string, { header: string; badge: string; tag: string }> 
 
 interface Props {
   card: Card;
-  lastUpdated: string | null;
   source: 'sheet' | 'static';
 }
 
-export default function MerchantTable({ card, lastUpdated, source }: Props) {
+export default function MerchantTable({ card }: Props) {
   const colors = COLOR_MAP[card.color] ?? COLOR_MAP.chase;
 
   return (
@@ -66,20 +65,9 @@ export default function MerchantTable({ card, lastUpdated, source }: Props) {
         </table>
       </div>
 
-      <div className="border-t border-gray-100 bg-gray-50 px-4 py-2.5 flex flex-wrap items-center justify-between gap-2 text-xs text-gray-400">
-        <span>
-          {card.merchants.length} stacking{' '}
-          {card.merchants.length === 1 ? 'opportunity' : 'opportunities'}
-        </span>
-        <span>
-          {lastUpdated ? (
-            <>Last updated: <span className="font-medium text-gray-600">{lastUpdated}</span></>
-          ) : source === 'static' ? (
-            'Connect Google Sheet for live updates'
-          ) : (
-            'Rates current'
-          )}
-        </span>
+      <div className="border-t border-gray-100 bg-gray-50 px-4 py-2.5 text-xs text-gray-400">
+        {card.merchants.length} stacking{' '}
+        {card.merchants.length === 1 ? 'opportunity' : 'opportunities'}
       </div>
     </div>
   );

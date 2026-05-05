@@ -20,11 +20,10 @@ const INACTIVE_CLASSES: Record<string, string> = {
 
 interface Props {
   cards: Card[];
-  lastUpdated: string | null;
   source: 'sheet' | 'static';
 }
 
-export default function CardTabs({ cards, lastUpdated, source }: Props) {
+export default function CardTabs({ cards, source }: Props) {
   const [activeId, setActiveId] = useState(cards[0]?.id ?? '');
   const activeCard = cards.find((c) => c.id === activeId) ?? cards[0];
 
@@ -49,7 +48,7 @@ export default function CardTabs({ cards, lastUpdated, source }: Props) {
 
       {/* Table */}
       {activeCard && (
-        <MerchantTable card={activeCard} lastUpdated={lastUpdated} source={source} />
+        <MerchantTable card={activeCard} source={source} />
       )}
 
       {/* Rakuten note */}
