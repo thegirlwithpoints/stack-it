@@ -21,7 +21,7 @@ export const PROMO_EVENT = {
 };
 
 export const SITE_META = {
-  lastUpdated: 'May 5, 2026 at 4:00 PM PST',
+  lastUpdated: 'May 6, 2026',
   updateFrequency: 'daily',
 };
 
@@ -29,12 +29,12 @@ export const STATIC_CARDS: Card[] = [
   {
     id: 'chase',
     name: 'CSP',
-    shortName: 'Chase',
+    shortName: 'CSP',
     color: 'chase',
     sheetName: 'Chase Sapphire',
     merchants: [
       { store: 'Viator', cardOffer: '8% cash back', rakutenPoints: '15x points' },
-      { store: 'Adidas', cardOffer: '$20 cash back', rakutenPoints: '15x points' },
+      { store: 'Adidas', cardOffer: '$20 cash back', rakutenPoints: 'up to 15x points' },
       { store: 'Therabody', cardOffer: '15% cash back', rakutenPoints: '15x points' },
       { store: "Lands' End", cardOffer: '10% cash back', rakutenPoints: '15x points' },
       { store: 'iHerb', cardOffer: '10% cash back', rakutenPoints: '15x points' },
@@ -57,7 +57,7 @@ export const STATIC_CARDS: Card[] = [
       { store: 'Moen', cardOffer: '10% cash back', rakutenPoints: '15x points' },
       { store: 'Shop LC', cardOffer: '15% cash back', rakutenPoints: '15x points' },
       { store: 'NOBULL', cardOffer: '$20 cash back', rakutenPoints: '15x points' },
-      { store: 'Straight Talk', cardOffer: '15% cash back', rakutenPoints: '15x points' },
+      { store: 'Straight Talk', cardOffer: '15% cash back', rakutenPoints: '1,500 points' },
       { store: 'Babbel', cardOffer: '15% cash back', rakutenPoints: '15x points' },
       { store: 'MERIT Beauty', cardOffer: '10% cash back', rakutenPoints: '15x points' },
       { store: 'Yale Locks', cardOffer: '10% cash back', rakutenPoints: '15x points' },
@@ -65,6 +65,7 @@ export const STATIC_CARDS: Card[] = [
       { store: 'Liquid IV', cardOffer: '15% cash back', rakutenPoints: '15x points' },
       { store: 'SIXT', cardOffer: '15% cash back', rakutenPoints: '15x points' },
       { store: 'BODi', cardOffer: '10% cash back', rakutenPoints: '15x points' },
+      { store: 'Trafalgar', cardOffer: '$200 cash back', rakutenPoints: '45,000 points' },
     ],
   },
   {
@@ -75,7 +76,7 @@ export const STATIC_CARDS: Card[] = [
     sheetName: 'United',
     merchants: [
       { store: "Lands' End", cardOffer: '10% cash back', rakutenPoints: '15x points' },
-      { store: 'Mattress Firm', cardOffer: '3% cash back', rakutenPoints: '15x points' },
+      { store: 'Mattress Firm', cardOffer: '3% cash back', rakutenPoints: 'up to 15x points' },
       { store: 'iHerb', cardOffer: '10% cash back', rakutenPoints: '15x points' },
       { store: 'Therabody', cardOffer: '15% cash back', rakutenPoints: '15x points' },
       { store: 'Ancestry', cardOffer: '10% cash back', rakutenPoints: '15x points' },
@@ -96,7 +97,7 @@ export const STATIC_CARDS: Card[] = [
       { store: 'LegalZoom', cardOffer: '20% cash back', rakutenPoints: '15x points' },
       { store: 'Moen', cardOffer: '10% cash back', rakutenPoints: '15x points' },
       { store: 'Babbel', cardOffer: '15% cash back', rakutenPoints: '15x points' },
-      { store: 'Straight Talk', cardOffer: '15% cash back', rakutenPoints: '15x points' },
+      { store: 'Straight Talk', cardOffer: '15% cash back', rakutenPoints: '1,500 points' },
       { store: 'CAKES Body', cardOffer: '10% cash back', rakutenPoints: '15x points' },
       { store: 'Little Spoon', cardOffer: '10% cash back', rakutenPoints: '15x points' },
       { store: 'MERIT Beauty', cardOffer: '10% cash back', rakutenPoints: '15x points' },
@@ -112,7 +113,7 @@ export const STATIC_CARDS: Card[] = [
     color: 'hyatt',
     sheetName: 'World of Hyatt',
     merchants: [
-      { store: 'Adidas', cardOffer: '$20 cash back', rakutenPoints: '15x points' },
+      { store: 'Adidas', cardOffer: '$20 cash back', rakutenPoints: 'up to 15x points' },
       { store: "Lands' End", cardOffer: '10% cash back', rakutenPoints: '15x points' },
       { store: 'iHerb', cardOffer: '10% cash back', rakutenPoints: '15x points' },
       { store: 'Redken', cardOffer: '15% cash back', rakutenPoints: '15x points' },
@@ -143,7 +144,7 @@ export const STATIC_CARDS: Card[] = [
   {
     id: 'amex',
     name: 'AP',
-    shortName: 'Amex',
+    shortName: 'AP',
     color: 'amex',
     sheetName: 'Amex',
     merchants: [
@@ -152,15 +153,15 @@ export const STATIC_CARDS: Card[] = [
       { store: 'Aldo', cardOffer: 'Earn 10% back, up to $14', rakutenPoints: '15x points' },
       { store: 'Sunglass Hut', cardOffer: 'Spend $200+, earn $30 back', rakutenPoints: 'up to 15x points' },
       { store: 'Oakley', cardOffer: 'Spend $150+, earn $30 back, up to 2x (total $60)', rakutenPoints: 'up to 15x points' },
-      { store: 'AT&T Wireless', cardOffer: 'Spend $65+, earn $50 back (new customers only)', rakutenPoints: 'up to 15x points' },
+      { store: 'AT&T Wireless', cardOffer: 'Spend $65+, earn $50 back (new customers only)', rakutenPoints: 'up to 6,500 points' },
       { store: '1800Flowers', cardOffer: 'Spend $50+, earn $15 back, up to 4x (total $60)', rakutenPoints: '20x points' },
       { store: 'Kay Jewelers', cardOffer: 'Spend $500+, earn $100 back', rakutenPoints: '15x points' },
-      { store: 'Straight Talk', cardOffer: 'Spend $45+, earn $20 back', rakutenPoints: '15x points' },
+      { store: 'Straight Talk', cardOffer: 'Spend $45+, earn $20 back', rakutenPoints: '1,500 points' },
       { store: 'Soma', cardOffer: 'Spend $110+, earn $20 back', rakutenPoints: '15x points' },
       { store: 'Zales', cardOffer: 'Spend $500+, earn $100 back', rakutenPoints: '15x points' },
       { store: 'AG1', cardOffer: 'Spend $75+, earn $25 back', rakutenPoints: '15x points' },
       { store: 'Glossier', cardOffer: 'Spend $65+, earn $15 back', rakutenPoints: '15x points' },
-      { store: 'ContactsDirect', cardOffer: 'Spend $100+, earn $20 back', rakutenPoints: '15x points' },
+      { store: 'ContactsDirect', cardOffer: 'Spend $100+, earn $20 back', rakutenPoints: '18x points' },
       { store: 'Barefoot Dreams', cardOffer: 'Spend $150+, earn $30 back', rakutenPoints: '15x points' },
       { store: 'Ancestry', cardOffer: 'Earn 20% back, up to $100', rakutenPoints: '15x points' },
       { store: 'Perricone MD', cardOffer: 'Spend $125+, earn $25 back', rakutenPoints: '15x points' },
