@@ -21,7 +21,7 @@ export const PROMO_EVENT = {
 };
 
 export const SITE_META = {
-  lastUpdated: 'May 6, 2026',
+  lastUpdated: 'May 7, 2026 at 7:30 AM PST',
   updateFrequency: 'daily',
 };
 
@@ -154,7 +154,7 @@ export const STATIC_CARDS: Card[] = [
       { store: 'Sunglass Hut', cardOffer: 'Spend $200+, earn $30 back', rakutenPoints: 'up to 15x points' },
       { store: 'Oakley', cardOffer: 'Spend $150+, earn $30 back, up to 2x (total $60)', rakutenPoints: 'up to 15x points' },
       { store: 'AT&T Wireless', cardOffer: 'Spend $65+, earn $50 back (new customers only)', rakutenPoints: 'up to 6,500 points' },
-      { store: '1800Flowers', cardOffer: 'Spend $50+, earn $15 back, up to 4x (total $60)', rakutenPoints: '20x points' },
+      { store: '1800Flowers', cardOffer: 'Spend $50+, earn $15 back, up to 4x (total $60)', rakutenPoints: '15x points' },
       { store: 'Kay Jewelers', cardOffer: 'Spend $500+, earn $100 back', rakutenPoints: '15x points' },
       { store: 'Straight Talk', cardOffer: 'Spend $45+, earn $20 back', rakutenPoints: '1,500 points' },
       { store: 'Soma', cardOffer: 'Spend $110+, earn $20 back', rakutenPoints: '15x points' },
