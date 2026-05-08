@@ -21,7 +21,7 @@ export const PROMO_EVENT = {
 };
 
 export const SITE_META = {
-  lastUpdated: 'May 7, 2026 at 7:30 AM PST',
+  lastUpdated: 'May 8, 2026 at 7:00 AM PST',
   updateFrequency: 'daily',
 };
 
@@ -36,7 +36,6 @@ export const STATIC_CARDS: Card[] = [
       { store: 'Viator', cardOffer: '8% cash back', rakutenPoints: '15x points' },
       { store: 'Adidas', cardOffer: '$20 cash back', rakutenPoints: 'up to 15x points' },
       { store: 'Therabody', cardOffer: '15% cash back', rakutenPoints: '15x points' },
-      { store: "Lands' End", cardOffer: '10% cash back', rakutenPoints: '15x points' },
       { store: 'iHerb', cardOffer: '10% cash back', rakutenPoints: '15x points' },
       { store: 'Airalo', cardOffer: '15% cash back', rakutenPoints: '15x points' },
       { store: 'AG1', cardOffer: '25% cash back', rakutenPoints: '15x points' },
@@ -75,7 +74,6 @@ export const STATIC_CARDS: Card[] = [
     color: 'united',
     sheetName: 'United',
     merchants: [
-      { store: "Lands' End", cardOffer: '10% cash back', rakutenPoints: '15x points' },
       { store: 'Mattress Firm', cardOffer: '3% cash back', rakutenPoints: 'up to 15x points' },
       { store: 'iHerb', cardOffer: '10% cash back', rakutenPoints: '15x points' },
       { store: 'Therabody', cardOffer: '15% cash back', rakutenPoints: '15x points' },
@@ -114,7 +112,6 @@ export const STATIC_CARDS: Card[] = [
     sheetName: 'World of Hyatt',
     merchants: [
       { store: 'Adidas', cardOffer: '$20 cash back', rakutenPoints: 'up to 15x points' },
-      { store: "Lands' End", cardOffer: '10% cash back', rakutenPoints: '15x points' },
       { store: 'iHerb', cardOffer: '10% cash back', rakutenPoints: '15x points' },
       { store: 'Redken', cardOffer: '15% cash back', rakutenPoints: '15x points' },
       { store: 'AG1', cardOffer: '25% cash back', rakutenPoints: '15x points' },
