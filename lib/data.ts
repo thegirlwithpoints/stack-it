@@ -21,7 +21,7 @@ export const PROMO_EVENT = {
 };
 
 export const SITE_META = {
-  lastUpdated: 'May 8, 2026 at 7:00 AM PST',
+  lastUpdated: 'May 9, 2026 at 8:30 AM PST',
   updateFrequency: 'daily',
 };
 
