@@ -6,6 +6,11 @@ const COLOR_MAP: Record<string, { header: string; badge: string; tag: string }> 
     badge: 'bg-chase-light text-chase border border-chase-border',
     tag: 'bg-chase-light text-chase',
   },
+  csr: {
+    header: 'bg-csr text-white',
+    badge: 'bg-csr-light text-csr border border-csr-border',
+    tag: 'bg-csr-light text-csr',
+  },
   united: {
     header: 'bg-united text-white',
     badge: 'bg-united-light text-united border border-united-border',

@@ -33,6 +33,12 @@ const config: Config = {
           border: '#fda4af',
           tab: '#9d174d',
         },
+        csr: {
+          DEFAULT: '#4338ca',
+          light: '#eef2ff',
+          border: '#a5b4fc',
+          tab: '#3730a3',
+        },
       },
       fontFamily: {
         sans: ['var(--font-inter)', 'system-ui', 'sans-serif'],
@@ -45,7 +51,8 @@ const config: Config = {
     'bg-united', 'bg-united-light', 'border-united', 'border-united-border', 'text-united', 'ring-united',
     'bg-hyatt', 'bg-hyatt-light', 'border-hyatt', 'border-hyatt-border', 'text-hyatt', 'ring-hyatt',
     'bg-amex', 'bg-amex-light', 'border-amex', 'border-amex-border', 'text-amex', 'ring-amex',
-    'hover:bg-chase-light', 'hover:bg-united-light', 'hover:bg-hyatt-light', 'hover:bg-amex-light',
+    'bg-csr', 'bg-csr-light', 'border-csr', 'border-csr-border', 'text-csr', 'ring-csr',
+    'hover:bg-chase-light', 'hover:bg-united-light', 'hover:bg-hyatt-light', 'hover:bg-amex-light', 'hover:bg-csr-light',
   ],
 };
 

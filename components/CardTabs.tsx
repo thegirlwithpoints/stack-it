@@ -6,6 +6,7 @@ import MerchantTable from './MerchantTable';
 
 const ACTIVE_CLASSES: Record<string, string> = {
   chase: 'bg-chase text-white shadow-md',
+  csr: 'bg-csr text-white shadow-md',
   united: 'bg-united text-white shadow-md',
   hyatt: 'bg-hyatt text-white shadow-md',
   amex: 'bg-amex text-white shadow-md',
@@ -13,6 +14,7 @@ const ACTIVE_CLASSES: Record<string, string> = {
 
 const INACTIVE_CLASSES: Record<string, string> = {
   chase: 'text-chase bg-white border border-chase-border hover:bg-chase-light',
+  csr: 'text-csr bg-white border border-csr-border hover:bg-csr-light',
   united: 'text-united bg-white border border-united-border hover:bg-united-light',
   hyatt: 'text-hyatt bg-white border border-hyatt-border hover:bg-hyatt-light',
   amex: 'text-amex bg-white border border-amex-border hover:bg-amex-light',

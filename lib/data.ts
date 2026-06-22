@@ -16,12 +16,12 @@ export interface Card {
 
 // Edit name/endDate here to repurpose for future promo events.
 export const PROMO_EVENT = {
-  name: 'Big Give Week',
-  endDate: '2026-05-11T23:59:59',
+  name: 'The Big Stack',
+  endDate: '2026-06-26T23:59:59',
 };
 
 export const SITE_META = {
-  lastUpdated: 'May 11, 2026 at 8:00 AM PST',
+  lastUpdated: 'Coming soon',
   updateFrequency: 'daily',
 };
 
@@ -66,6 +66,14 @@ export const STATIC_CARDS: Card[] = [
       { store: 'BODi', cardOffer: '10% cash back', rakutenPoints: '15x points' },
       { store: 'Trafalgar', cardOffer: '$200 cash back', rakutenPoints: '45,000 points' },
     ],
+  },
+  {
+    id: 'csr',
+    name: 'CSR',
+    shortName: 'CSR',
+    color: 'csr',
+    sheetName: 'Chase Sapphire Reserve',
+    merchants: [],
   },
   {
     id: 'united',
