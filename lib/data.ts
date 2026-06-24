@@ -21,7 +21,7 @@ export const PROMO_EVENT = {
 };
 
 export const SITE_META = {
-  lastUpdated: 'June 23, 2026',
+  lastUpdated: 'June 24, 2026',
   updateFrequency: 'daily',
 };
 
@@ -40,7 +40,7 @@ export const STATIC_CARDS: Card[] = [
       { store: 'Beautyrest', cardOffer: '10% cash back', rakutenPoints: '10x points' },
       { store: 'Tuft & Needle', cardOffer: '10% cash back', rakutenPoints: '10x points' },
       { store: 'SkinCeuticals', cardOffer: '5% cash back', rakutenPoints: '15x points' },
-      { store: 'QVC', cardOffer: '10% cash back', rakutenPoints: '10x points' },
+      { store: 'StubHub', cardOffer: '5% cash back', rakutenPoints: '10x points' },
       { store: 'Thrive Causemetics', cardOffer: '12% cash back', rakutenPoints: '10x points' },
       { store: "L'AGENCE", cardOffer: '15% cash back', rakutenPoints: '10x points' },
       { store: 'Tonal', cardOffer: '$250 cash back', rakutenPoints: '10x points' },
@@ -84,7 +84,6 @@ export const STATIC_CARDS: Card[] = [
       { store: 'KiwiCo', cardOffer: '10% cash back', rakutenPoints: '10x points' },
       { store: 'Beautyrest', cardOffer: '10% cash back', rakutenPoints: '10x points' },
       { store: 'Tuft & Needle', cardOffer: '10% cash back', rakutenPoints: '10x points' },
-      { store: 'QVC', cardOffer: '10% cash back', rakutenPoints: '10x points' },
       { store: 'Thrive Causemetics', cardOffer: '12% cash back', rakutenPoints: '10x points' },
       { store: 'Cole Haan', cardOffer: '15% cash back', rakutenPoints: '10x points' },
       { store: "L'AGENCE", cardOffer: '15% cash back', rakutenPoints: '10x points' },
@@ -111,7 +110,6 @@ export const STATIC_CARDS: Card[] = [
       { store: 'KiwiCo', cardOffer: '10% cash back', rakutenPoints: '10x points' },
       { store: 'Beautyrest', cardOffer: '10% cash back', rakutenPoints: '10x points' },
       { store: 'Tuft & Needle', cardOffer: '10% cash back', rakutenPoints: '10x points' },
-      { store: 'QVC', cardOffer: '10% cash back', rakutenPoints: '10x points' },
       { store: 'Thrive Causemetics', cardOffer: '12% cash back', rakutenPoints: '10x points' },
       { store: 'Cole Haan', cardOffer: '15% cash back', rakutenPoints: '10x points' },
       { store: "L'AGENCE", cardOffer: '15% cash back', rakutenPoints: '10x points' },
