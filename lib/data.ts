@@ -21,7 +21,7 @@ export const PROMO_EVENT = {
 };
 
 export const SITE_META = {
-  lastUpdated: 'June 24, 2026',
+  lastUpdated: 'June 25, 2026',
   updateFrequency: 'daily',
 };
 
